@@ -13,5 +13,8 @@
         "cssnano": "^4.1.10",
         "gh-pages": "^2.1.1",
         "less": "^3.10.3"
-    }
+    },
+    "description": "HH htmlCSSHomework",
+    "main": "index.js",
+    "repository": "https://github.com/leonidfeskov/html-and-css-homework.git"
 }
