@@ -1,0 +1,20 @@
+@icons-services: return, delivery, support;
+.services {
+
+  &__support, &__return, &__delivery {
+    background-color: #eee;
+    color: #333333;
+    display: flex;
+    padding: 15px 0;
+    align-content: center;
+  }
+  each(@icons-services, {
+      &__@{value}_image {
+          background-image: url('../../../images/services/@{value}.svg');
+          width: 40px;
+          height: 40px;
+          margin: 0 15px;
+      }
+  })
+
+}

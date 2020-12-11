@@ -1,23 +1,31 @@
 .section-carousel {
     padding: 30px 0;
     display: flex;
+    align-items: stretch;
     flex-wrap: wrap;
 
     .carousel {
       position: relative;
+      box-sizing: border-box;
+      min-width: 320px;
+      padding: 0 15px;
+      height:100%;
+
     .carousel_slide {
+      display: flex;
+      text-align: center;
+      flex-direction: column-reverse;
 
       &__image-contaier {
-        width: 100%;
+        flex: 0 0 1;
       }
 
       &__image {
         width: 100%;
       }
 
-      &__text-contaier {
-        width: 100%;
-        text-align: center;
+      &__text-container {
+
 
         button {
           padding: 9px 15px;
@@ -32,6 +40,7 @@
         height: 8px;
         display: flex;
         align-content: center;
+        top:50%;
 
         &__round {
           border-radius: 8px;

@@ -1,0 +1,26 @@
+@icons-social: fb, twitter, vk, instagram;
+
+.footer {
+  background: #212122;
+  color: #999999;
+  &__social-icons {
+    display: flex;
+    padding-top: 30px;
+
+    each(@icons-social, {
+        .footer-button-icon_@{value} {
+            background-image: url('../../../images/@{value}.svg');
+            width: 36px;
+            height: 36px;
+            margin-left: 15px;
+        }
+    })
+  }
+  &__mobile-markets {
+  padding: 30px 0;
+  }
+  &__line {
+    background-color: #666666;
+    margin-bottom: 15px;
+  }
+}
