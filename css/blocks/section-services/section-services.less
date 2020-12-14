@@ -1,12 +1,16 @@
 @icons-services: return, delivery, support;
-.services {
-
+.section-services {
+  background-color: #eee;
+  color: #333333;
+  
+  .services {
   &__support, &__return, &__delivery {
-    background-color: #eee;
-    color: #333333;
-    display: flex;
-    padding: 15px 0;
-    align-content: center;
+      padding: 15px 0;
+      display: flex;
+
+    &_text {
+      align-self: center;
+    }
   }
   each(@icons-services, {
       &__@{value}_image {
@@ -16,5 +20,5 @@
           margin: 0 15px;
       }
   })
-
+}
 }
