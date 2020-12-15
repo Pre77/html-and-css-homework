@@ -1,11 +1,40 @@
 .header {
     background-color: @color-dark;
 
+    &__extend {
+        display: none;
+        background: #FFFFFF;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: @color-link;
+            flex: 1;
+            padding-right: 20px;
+        }
+        @media @screen-gt-m {
+            display:flex;
+            height: 40px;
+        }
+        &_main {
+            display: flex;
+        }
+        &_city {
+            flex-direction: row;
+            flex: 1;
+            a {
+              color: @color-grey;
+            }
+        }
+        &_menu {
+            flex-direction: row-reverse;
+        }
+    }
+
     &__content {
         display: flex;
         height: 60px;
         align-items: center;
-
         @media @screen-gt-m {
             height: 80px;
         }
