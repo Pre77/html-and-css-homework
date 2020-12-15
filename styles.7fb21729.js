@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./blocks\\header\\search.svg":[["search.8c8c89df.svg","css/blocks/header/search.svg"],"css/blocks/header/search.svg"],"./blocks\\header\\login.svg":[["login.33638b7a.svg","css/blocks/header/login.svg"],"css/blocks/header/login.svg"],"./blocks\\header\\menu.svg":[["menu.f0dd8858.svg","css/blocks/header/menu.svg"],"css/blocks/header/menu.svg"],"./..\\images\\fb.svg":[["fb.ff58048c.svg","images/fb.svg"],"images/fb.svg"],"./..\\images\\twitter.svg":[["twitter.ff6c3b61.svg","images/twitter.svg"],"images/twitter.svg"],"./..\\images\\vk.svg":[["vk.3dc341a5.svg","images/vk.svg"],"images/vk.svg"],"./..\\images\\instagram.svg":[["instagram.244b4cdf.svg","images/instagram.svg"],"images/instagram.svg"],"./..\\images\\services\\return.svg":[["return.b46e2ba5.svg","images/services/return.svg"],"images/services/return.svg"],"./..\\images\\services\\delivery.svg":[["delivery.ebcf4a95.svg","images/services/delivery.svg"],"images/services/delivery.svg"],"./..\\images\\services\\support.svg":[["support.7042f7cb.svg","images/services/support.svg"],"images/services/support.svg"],"_css_loader":"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./blocks\\header\\search.svg":[["search.8c8c89df.svg","css/blocks/header/search.svg"],"css/blocks/header/search.svg"],"./blocks\\header\\login.svg":[["login.33638b7a.svg","css/blocks/header/login.svg"],"css/blocks/header/login.svg"],"./blocks\\header\\menu.svg":[["menu.f0dd8858.svg","css/blocks/header/menu.svg"],"css/blocks/header/menu.svg"],"D:\\work\\hh\\html-and-css-homework\\images\\fb.svg":[["fb.ff58048c.svg","images/fb.svg"],"images/fb.svg"],"D:\\work\\hh\\html-and-css-homework\\images\\twitter.svg":[["twitter.ff6c3b61.svg","images/twitter.svg"],"images/twitter.svg"],"D:\\work\\hh\\html-and-css-homework\\images\\vk.svg":[["vk.3dc341a5.svg","images/vk.svg"],"images/vk.svg"],"D:\\work\\hh\\html-and-css-homework\\images\\instagram.svg":[["instagram.244b4cdf.svg","images/instagram.svg"],"images/instagram.svg"],"D:\\work\\hh\\html-and-css-homework\\images\\services\\return.svg":[["return.b46e2ba5.svg","images/services/return.svg"],"images/services/return.svg"],"D:\\work\\hh\\html-and-css-homework\\images\\services\\delivery.svg":[["delivery.ebcf4a95.svg","images/services/delivery.svg"],"images/services/delivery.svg"],"D:\\work\\hh\\html-and-css-homework\\images\\services\\support.svg":[["support.7042f7cb.svg","images/services/support.svg"],"images/services/support.svg"],"_css_loader":"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51549" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57193" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
