@@ -1,8 +1,9 @@
 @icons-social: fb, twitter, vk, instagram;
+@app-markets: google, apple;
 
 .footer {
-    background: #212122;
-    color: #999999;
+    background: @color-dark;
+    color: @color-light-grey;
 
     &__social-icons {
         display: flex;
@@ -16,7 +17,7 @@
                 background-image: url('@{value}.svg');
                 width: 36px;
                 height: 36px;
-                margin-right: 15px;
+                margin-left: 8px;
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
@@ -25,19 +26,31 @@
     }
     &__mobile-markets {
         padding: 30px 0;
-        width:100%;
+        margin-left: 15px;
         display: flex;
         @media @screen-gt-s {
             flex: 1;
             box-sizing: border-box;
         }
-        img {
-            margin-right: 8px;
-            flex: 1;
-            border-color: #ffffff;
-            border-width: 1px;
-            border-style: inset;
-        }
+    }
+
+    &__mobile-images {
+
+        flex: 1;
+        each(@app-markets, {
+            &_@{value} {
+                background-image: url('/images/apps/@{value}.svg');
+                height: 40px;
+                width: 140px;
+                margin-left: 8px;
+                border-color: @color-white;
+                border-width: 1px;
+                border-style: solid;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+        })
     }
     &__logo {
         display: none;
@@ -47,13 +60,13 @@
             align-content: flex-end;
             flex-direction: row-reverse;
         }
-        svg {
-            align-self: center;
-            flex-flow: column;
-        }
+    }
+    .logo-gray {
+        align-self: center;
+        flex-flow: column;
     }
     &__line {
-        background-color: #666666;
+        background-color: @color-grey;
         margin-top: 15px;
     }
 
