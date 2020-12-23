@@ -6,9 +6,15 @@
     color: @color-light-grey;
     display: flex;
     flex-wrap: wrap;
+
     &-block {
-              display: flex;
-                  padding: 30px 0;
+        display: flex;
+        padding: 30px 0;
+        flex: 1;
+        align-items: center;
+        @media @screen-gt-s {
+          padding: 30px 0 0 0;
+        }
     }
     &__social-icons {
 
@@ -33,21 +39,19 @@
     })
 
     &__mobile-markets {
-        margin-left: 15px;
         display: flex;
+        height: 40px;
+        width: 140px;
+        margin-left: 15px;
+        flex: 1;
+
         @media @screen-only-s {
-            flex: 1;
-            margin-left: 0px;
             box-sizing: border-box;
+            margin: 0 4px;
         }
     }
 
     &__mobile-images {
-        height: 40px;
-        width: 140px;
-        margin-left: 8px;
-        flex: 1;
-
         each(@app-markets, {
             &_@{value} {
                 background-image: url('/images/apps/@{value}.svg');
@@ -76,6 +80,7 @@
     &__line {
         background-color: @color-grey;
         margin-top: 15px;
+        width: 100%;
     }
 
     &__copyright {
