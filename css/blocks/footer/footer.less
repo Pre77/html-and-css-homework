@@ -1,0 +1,89 @@
+@icons-social: fb, twitter, vk, instagram;
+@app-markets: google, apple;
+
+.footer {
+    background: @color-dark;
+    color: @color-light-grey;
+    display: flex;
+    flex-wrap: wrap;
+
+    &-block {
+        display: flex;
+        padding: 30px 0;
+        flex: 1;
+        align-items: center;
+        @media @screen-gt-s {
+            padding: 30px 0 0 0;
+        }
+    }
+    &__social-icons {
+
+
+        @media @screen-gt-s {
+            flex: 1;
+            box-sizing: border-box;
+        }
+    }
+    &-button-icon {
+        width: 36px;
+        height: 36px;
+        margin-right: 15px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    each(@icons-social, {
+        &-button-icon_@{value} {
+            background-image: url('/css/blocks/footer/@{value}.svg');
+        }
+    })
+
+    &__mobile-markets {
+        display: flex;
+        height: 40px;
+        width: 140px;
+        margin-left: 15px;
+        flex: 1;
+
+        @media @screen-only-s {
+            box-sizing: border-box;
+            margin: 0 4px;
+        }
+    }
+
+    &__mobile-images {
+        each(@app-markets, {
+            &_@{value} {
+                background-image: url('/images/apps/@{value}.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                border-color: @color-white;
+                border-width: 1px;
+                border-style: solid;
+            }
+        })
+    }
+    &__logo {
+        display: none;
+        @media @screen-gt-m {
+            display: flex;
+            box-sizing: border-box;
+            align-content: flex-end;
+            flex-direction: row-reverse;
+        }
+    }
+    .logo-gray {
+        align-self: center;
+        flex-flow: column;
+    }
+    &__line {
+        background-color: @color-grey;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    &__copyright {
+        padding: 35px 0;
+    }
+}

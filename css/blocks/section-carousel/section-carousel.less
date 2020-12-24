@@ -1,0 +1,94 @@
+    .carousel-slide {
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media @screen-only-s{
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        &__image-contaier {
+            flex:0 0 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            @media @screen-only-s{
+                order: 0;
+                flex: 1;
+                flex-wrap: wrap;
+            }
+        }
+
+        &__image {
+            width: 100%;
+            @media @screen-gt-s {
+                padding: 15px;
+            }
+        }
+        &__pages-contaier {
+            justify-content: center;
+            display: flex;
+            padding: 15px 0;
+            @media @screen-only-s {
+                order: 1;
+            }
+            &__round {
+                border-radius: 8px;
+                margin: 0 2px;
+                width: 8px;
+                height: 8px;
+                background-color: @color-light;
+            }
+            &__active {
+                background-color: @color-dark;
+            }
+        }
+
+        &__text-container {
+            @media @screen-only-s {
+                order: 2;
+                flex-wrap: wrap;
+                flex:1;
+            }
+            flex:0 0 50%;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: column;
+            button {
+                padding: 9px 15px;
+                color: @color-white;
+                background: #0F8FEE;
+                border-radius: 1px;
+                border-width: 0;
+                width: 50%;
+                @media @screen-only-s {
+                    align-self: center;
+                }
+            }
+        }
+    }
+    .carousel-page {
+        position: absolute;
+        height: 8px;
+        @media @screen-only-s {
+            display: flex;
+            align-content: center;
+            align-items: stretch;
+        }
+        &__round {
+            border-radius: 8px;
+            margin: 0 2px;
+            width: 8px;
+            height: 8px;
+            background-color: #DFDEDD;
+        }
+        &__active {
+            background-color: @color-dark;
+        }
+        &__fill {
+            flex:1;
+        }
+    }
