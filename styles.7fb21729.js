@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"C:/Users/Pre77/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"C:/Users/Pre77/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/styles.less":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/Pre77/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/styles.less":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./blocks\\header\\search.svg":[["search.8c8c89df.svg","css/blocks/header/search.svg"],"css/blocks/header/search.svg"],"./blocks\\header\\login.svg":[["login.33638b7a.svg","css/blocks/header/login.svg"],"css/blocks/header/login.svg"],"./blocks\\header\\menu.svg":[["menu.f0dd8858.svg","css/blocks/header/menu.svg"],"css/blocks/header/menu.svg"],"./blocks\\footer\\fb.svg":[["fb.393d0daa.svg","css/blocks/footer/fb.svg"],"css/blocks/footer/fb.svg"],"./blocks\\footer\\twitter.svg":[["twitter.eef68724.svg","css/blocks/footer/twitter.svg"],"css/blocks/footer/twitter.svg"],"./blocks\\footer\\vk.svg":[["vk.7434af77.svg","css/blocks/footer/vk.svg"],"css/blocks/footer/vk.svg"],"./blocks\\footer\\instagram.svg":[["instagram.42a9b087.svg","css/blocks/footer/instagram.svg"],"css/blocks/footer/instagram.svg"],"D:\\Work\\HH\\html-and-css-homework\\images\\apps\\google.svg":[["google.8852b9d2.svg","images/apps/google.svg"],"images/apps/google.svg"],"D:\\Work\\HH\\html-and-css-homework\\images\\apps\\apple.svg":[["apple.680a8679.svg","images/apps/apple.svg"],"images/apps/apple.svg"],"./blocks\\section-services\\return.svg":[["return.5b993d14.svg","css/blocks/section-services/return.svg"],"css/blocks/section-services/return.svg"],"./blocks\\section-services\\delivery.svg":[["delivery.fdf73ed2.svg","css/blocks/section-services/delivery.svg"],"css/blocks/section-services/delivery.svg"],"./blocks\\section-services\\support.svg":[["support.83acbd55.svg","css/blocks/section-services/support.svg"],"css/blocks/section-services/support.svg"],"_css_loader":"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\header\\search.svg":[["search.8c8c89df.svg","css/blocks/header/search.svg"],"css/blocks/header/search.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\header\\login.svg":[["login.33638b7a.svg","css/blocks/header/login.svg"],"css/blocks/header/login.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\header\\menu.svg":[["menu.f0dd8858.svg","css/blocks/header/menu.svg"],"css/blocks/header/menu.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\footer\\fb.svg":[["fb.393d0daa.svg","css/blocks/footer/fb.svg"],"css/blocks/footer/fb.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\footer\\twitter.svg":[["twitter.eef68724.svg","css/blocks/footer/twitter.svg"],"css/blocks/footer/twitter.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\footer\\vk.svg":[["vk.7434af77.svg","css/blocks/footer/vk.svg"],"css/blocks/footer/vk.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\footer\\instagram.svg":[["instagram.42a9b087.svg","css/blocks/footer/instagram.svg"],"css/blocks/footer/instagram.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\images\\apps\\google.svg":[["google.8852b9d2.svg","images/apps/google.svg"],"images/apps/google.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\images\\apps\\apple.svg":[["apple.680a8679.svg","images/apps/apple.svg"],"images/apps/apple.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\section-services\\return.svg":[["return.5b993d14.svg","css/blocks/section-services/return.svg"],"css/blocks/section-services/return.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\section-services\\delivery.svg":[["delivery.fdf73ed2.svg","css/blocks/section-services/delivery.svg"],"css/blocks/section-services/delivery.svg"],"D:\\Dev\\owned\\html-and-css-homework-1\\css\\blocks\\section-services\\support.svg":[["support.83acbd55.svg","css/blocks/section-services/support.svg"],"css/blocks/section-services/support.svg"],"_css_loader":"C:/Users/Pre77/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"C:/Users/Pre77/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52428" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "14087" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["C:/Users/nic_z/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["C:/Users/Pre77/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/styles.7fb21729.js.map
