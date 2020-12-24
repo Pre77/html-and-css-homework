@@ -3,11 +3,11 @@
     background: #FFFFFF;
     align-items: center;
 
-    a {
+    &__link {
         text-decoration: none;
         color: @color-link;
         flex: 1;
-        margin-right: 20px;
+        margin-left: 20px;
     }
     @media @screen-gt-m {
         display:flex;
@@ -18,13 +18,10 @@
     }
     &__city {
         flex: 1;
-        a {
+        &-link {
             color: @color-grey;
             margin-left: 0px;
         }
-    }
-    &__menu {
-        flex-direction: row-reverse;
     }
 }
 .header {
@@ -49,7 +46,6 @@
 
     &__menu {
         display: none;
-
         @media @screen-gt-s {
             display: block;
         }
@@ -76,7 +72,7 @@
 
 each(@icons, {
     .header-button-icon_@{value} {
-        background-image: url('@{value}.svg');
+        background-image: url('/css/blocks/header/@{value}.svg');
     }
 })
 
